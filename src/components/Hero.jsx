@@ -49,7 +49,7 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
+              transition={{ duration: 1, delay: 0.5 }}
               className="rounded-3xl"
               src={profilePic}
               alt="anmol singh"
