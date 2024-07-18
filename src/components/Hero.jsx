@@ -52,7 +52,7 @@ const Hero = () => {
               transition={{ duration: 0.75, delay: 0.25 }}
               className="rounded-3xl"
               src={profilePic}
-              alt="anmol singh"
+              alt="anmol"
             />
           </div>
         </div>
