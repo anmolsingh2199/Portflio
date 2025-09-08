@@ -3,106 +3,105 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate Software Engineer with 3+ years of experience designing and delivering scalable AI-driven applications in healthcare, aviation, and fintech. I specialize in building intelligent platforms using LLMs, LangChain, RAG, and vector databases, with expertise in React/Next.js, FastAPI, and cloud-native architectures. My goal is to leverage cutting-edge AI technologies and full-stack expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Results-driven Software Engineer with 3+ years of experience designing and delivering scalable AI-driven applications in healthcare, aviation, and fintech. Skilled in building intelligent platforms using LLMs, LangChain, RAG, and vector databases, with expertise in React/Next.js, FastAPI, and cloud-native architectures on GCP. Strong background in data visualization, system optimization, and cross-functional collaboration, delivering measurable improvements in efficiency, automation, and business outcomes.`;
 
 export const ABOUT_TEXT = `I am a dedicated Software Engineer with 3+ years of experience creating efficient, AI-powered web applications across healthcare, aviation, and fintech industries. My expertise spans modern technologies including LLMs, LangChain, RAG systems, vector databases, React/Next.js, FastAPI, and cloud-native architectures on GCP. I have a proven track record of delivering measurable improvements in efficiency and automation, from building AI-driven healthcare platforms that improved match accuracy by 40% to creating intelligent CRM systems that reduced onboarding time to under 5 minutes. My journey in development began with traditional full-stack technologies and has evolved to embrace cutting-edge AI/ML solutions. I thrive in cross-functional environments, excel at system optimization, and am passionate about solving complex problems through innovative technology. Outside of coding, I stay current with emerging AI technologies and contribute to advancing intelligent software solutions.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 Oct - Present",
-    role: "Software Engineerr",
+    role: "Software Engineer",
     company: "ARHASI INC",
     description: [
-      "Built Generics Care platform with Vertex AI Agent Builder + LangChain for client–caregiver matching, improving match accuracy by 40%.",
-      "Shipped Homecare AI CRM with RAG + vector search to parse 10–20 healthcare documents and auto-populate database fields, cutting onboarding time to under 5 minutes.",
-      "Created Insight Canvas multi-agent Chain of Thought system that reduced incorrect SQL queries by 70% through advanced prompt engineering and metadata analysis.",
-      "Delivered React frontends with Python/LLM backends integrating OpenAI GPT, Neo4j, and custom NLP solutions for healthcare and fintech applications.",
-      "Implemented vector databases and semantic search capabilities for enhanced data retrieval and user experience."
+      "Designed and implemented a HIPAA-compliant clinical data platform using Spring Boot, AWS EKS, and .NET tools, enabling scalable ingestion of 1M+ records per hour with low-latency performance.",
+      "Containerized microservices with Docker and managed orchestration via Kubernetes to enhance load balancing and reduce platform downtime by 40%.",
+      "Optimized backend services and database interactions, improving real-time patient monitoring response times by 30% for 50K+ users through React.js and Flask interfaces.",
+      "Developed ML-driven anomaly detection on surgical device telemetry using Python and AWS S3, boosting equipment reliability across 500+ installations.",
+      "Refined Jenkins CI/CD pipelines with SonarQube quality gates to identify code issues early, reducing post-deployment defects by 45% and improving system stability."
     ],
-    technologies: ["Python", "FastAPI", "LangChain", "OpenAI GPT", "Vertex AI", "React.js", "Next.js", "Neo4j", "Vector Databases", "RAG", "NLP", "GCP"],
+    technologies: ["Spring Boot", "AWS EKS", ".NET", "Docker", "Kubernetes", "React.js", "Flask", "Python", "AWS S3", "Jenkins", "SonarQube", "ML", "HIPAA Compliance"],
   },
   {
     year: "2023 Dec - 2024 Jul",
-    role: "Software Engineer", 
+    role: "Software Development Engineer", 
     company: "CSM AVIATION",
     description: [
-      "Launched AI-powered scheduling system for charter operations to intelligently route quotes and assign pilots based on availability and preferences.",
-      "Built comprehensive maintenance module to prioritize work orders, resulting in 35% reduction in aircraft downtime.",
-      "Implemented PDF-aware chatbot using NLP and RAG architecture for instant answers to staff and customer inquiries.",
-      "Integrated ServiceNow for automated ticketing system, cutting response times by 40%.",
-      "Deployed scalable solutions on AWS serverless infrastructure using Lambda, S3, CloudFront, and API Gateway."
+      "Took charge of crafting a microservices-based scheduling system using Java, Spring Boot, and MySQL, empowering real-time visibility for over 50K daily shipments and shrinking SLA violations by 22%.",
+      "Developed integrated charter maintenance workflow system with Stripe payment processing, serving 150+ monthly users while reducing payment collection time by 75% and achieving 98% payment success rate.",
+      "Engaged in modularizing monolithic HRM architecture into scalable services via Spring Cloud and Docker, achieving a 60% improvement in horizontal scalability under load tests.",
+      "Introduced JWT-based role access control with Spring Security, fortifying multi-tenant SaaS products against unauthorized access and passing annual security audits with zero critical issues.",
+      "Validated all user-critical features through automation scripts using Selenium, TestNG, and Postman, raising regression test coverage to 92% and trimming manual QA cycle time by 50%."
     ],
-    technologies: ["React.js", "Node.js", "Python", "NLP", "RAG", "ServiceNow", "AWS Lambda", "S3", "API Gateway", "MongoDB", "AI Chatbots"],
+    technologies: ["Java", "Spring Boot", "MySQL", "Stripe", "Spring Cloud", "Docker", "JWT", "Spring Security", "Selenium", "TestNG", "Postman", "Microservices"],
   },
   {
     year: "2021 Jan - 2022 Jun",
-    role: "Java Developer",
+    role: "Software Development Engineer",
     company: "NETSMARTZ",
     description: [
-      "Built REST microservices with Spring Boot for ERP system serving 500+ users, implementing MVC architecture and dependency injection for enhanced scalability.",
-      "Improved application performance by 40% through strategic implementation of Ehcache caching mechanisms on high-frequency inventory read operations.",
-      "Integrated PayPal payment gateway APIs, reducing transaction errors by 25% and streamlining order processing workflows.",
-      "Optimized database operations using JDBC prepared statements, stored procedures, and connection pooling for enhanced data manipulation efficiency.",
-      "Developed statistical and decision reports using Jasper Reports and MySQL with Excel data sources for comprehensive data analysis.",
-      "Enhanced team productivity through regular code reviews and mentoring, fostering best practices and knowledge sharing."
+      "Developed microservices using Spring Boot, implementing CRUD operations, exception handling, and advanced OOP concepts following the MVC design pattern.",
+      "Optimized Snowflake database interactions with Hibernate, creating triggers, functions, and efficient schemas for large-scale applications.",
+      "Implemented robust encryption mechanisms and security protocols in microservices architecture, ensuring data protection and compliance with GDPR and PCI standards.",
+      "Automated deployment of services to Azure Kubernetes Service (AKS) using kubectl and Helm charts, ensuring version control and rollback capabilities.",
+      "Implemented secure authentication with Azure Active Directory and OAuth-based single sign-on (SSO), ensuring robust access control."
     ],
-    technologies: ["Java", "Spring Boot", "Spring MVC", "Hibernate", "MySQL", "REST APIs", "Ehcache", "JDBC", "PayPal API", "Jasper Reports", "Maven"],
+    technologies: ["Spring Boot", "Snowflake", "Hibernate", "Azure Kubernetes Service", "kubectl", "Helm", "Azure AD", "OAuth", "GDPR", "PCI Compliance", "Microservices"],
   }
 ];
 
 export const PROJECTS = [
   {
-    title: "Generics Care AI Platform",
+    title: "HIPAA-Compliant Clinical Data Platform",
     image: project1,
     description: [
-      "Developed an AI-driven healthcare platform using Vertex AI Agent Builder and LangChain for intelligent client-caregiver matching.",
-      "Implemented advanced machine learning algorithms that improved match accuracy by 40% through personalized recommendation systems.",
-      "Built scalable RAG (Retrieval-Augmented Generation) architecture with vector databases for semantic search and document processing.",
-      "Created real-time matching algorithms considering caregiver availability, client preferences, and geographical proximity.",
-      "Integrated with healthcare compliance systems ensuring HIPAA compliance and secure data handling."
+      "Designed and implemented a comprehensive clinical data platform using Spring Boot, AWS EKS, and .NET tools for healthcare organizations.",
+      "Achieved scalable ingestion of 1M+ records per hour with low-latency performance through optimized microservices architecture.",
+      "Containerized services with Docker and implemented Kubernetes orchestration for enhanced load balancing and 40% reduction in downtime.",
+      "Developed ML-driven anomaly detection for surgical device telemetry, improving equipment reliability across 500+ installations.",
+      "Integrated Jenkins CI/CD pipelines with SonarQube quality gates, reducing post-deployment defects by 45%."
     ],
-    technologies: ["Python", "LangChain", "Vertex AI", "RAG", "Vector Databases", "React.js", "FastAPI", "Neo4j", "GCP"],
+    technologies: ["Spring Boot", "AWS EKS", ".NET", "Docker", "Kubernetes", "ML", "Jenkins", "SonarQube", "HIPAA"],
   },
   {
-    title: "Homecare AI CRM System",
+    title: "Microservices Scheduling System",
     image: project2,
     description: [
-      "Built intelligent CRM system with RAG and vector search capabilities to automatically parse and process 10-20 healthcare documents.",
-      "Implemented NLP-powered data extraction that auto-populates database fields, reducing manual onboarding time from hours to under 5 minutes.",
-      "Created multi-modal document processing pipeline handling PDFs, images, and structured data with 95% accuracy.",
-      "Developed custom vector embeddings for healthcare-specific terminology and document classification.",
-      "Integrated real-time notifications and workflow automation for seamless care coordination."
+      "Built comprehensive microservices-based scheduling system using Java, Spring Boot, and MySQL for real-time shipment tracking.",
+      "Enabled visibility for 50K+ daily shipments while reducing SLA violations by 22% through intelligent routing algorithms.",
+      "Integrated Stripe payment processing serving 150+ monthly users with 98% success rate and 75% faster collection times.",
+      "Modularized monolithic HRM architecture using Spring Cloud and Docker, achieving 60% improvement in horizontal scalability.",
+      "Implemented JWT-based role access control with Spring Security for multi-tenant SaaS products."
     ],
-    technologies: ["Python", "RAG", "Vector Search", "NLP", "OpenAI GPT", "React.js", "PostgreSQL", "Redis", "Docker"],
+    technologies: ["Java", "Spring Boot", "MySQL", "Stripe", "Spring Cloud", "Docker", "JWT", "Spring Security", "Microservices"],
   },
   {
-    title: "Insight Canvas Multi-Agent System",
+    title: "Azure Cloud Microservices Platform",
     image: project3,
     description: [
-      "Created sophisticated multi-agent Chain of Thought system for intelligent SQL query generation and data analysis.",
-      "Achieved 70% reduction in incorrect SQL queries through advanced prompt engineering and metadata analysis techniques.",
-      "Implemented agent orchestration with specialized roles for query planning, validation, and execution optimization.",
-      "Built natural language to SQL translation with context-aware understanding of database schemas and business logic.",
-      "Developed interactive dashboard with real-time query performance monitoring and automated optimization suggestions."
+      "Developed scalable microservices platform using Spring Boot with advanced OOP concepts and MVC design patterns.",
+      "Optimized Snowflake database interactions with Hibernate, implementing efficient schemas for large-scale applications.",
+      "Automated deployment to Azure Kubernetes Service using kubectl and Helm charts with version control and rollback capabilities.",
+      "Implemented robust security with Azure Active Directory and OAuth-based SSO for enterprise access control.",
+      "Ensured compliance with GDPR and PCI standards through advanced encryption mechanisms and security protocols."
     ],
-    technologies: ["Python", "LangChain", "Multi-Agent Systems", "SQL", "FastAPI", "React.js", "Prompt Engineering", "Chain of Thought"],
+    technologies: ["Spring Boot", "Snowflake", "Hibernate", "Azure AKS", "kubectl", "Helm", "Azure AD", "OAuth", "Security Compliance"],
   },
   {
-    title: "Aviation AI Scheduling Platform",
+    title: "Automated Testing & QA Framework",
     image: project4,
     description: [
-      "Launched comprehensive AI-powered scheduling system for charter flight operations with intelligent pilot assignment algorithms.",
-      "Built maintenance prioritization module that reduced aircraft downtime by 35% through predictive analytics and smart work order management.",
-      "Implemented PDF-aware chatbot using NLP and RAG for instant customer and staff support with 24/7 availability.",
-      "Integrated ServiceNow automation reducing response times by 40% and improving operational efficiency.",
-      "Created real-time dashboard for flight operations monitoring with predictive maintenance alerts and resource optimization."
+      "Built comprehensive automation testing framework using Selenium, TestNG, and Postman for end-to-end quality assurance.",
+      "Achieved 92% regression test coverage while reducing manual QA cycle time by 50% through intelligent test automation.",
+      "Developed real-time patient monitoring interfaces using React.js and Flask, improving response times by 30% for 50K+ users.",
+      "Created automated deployment pipelines with continuous integration and quality gates for enhanced system stability.",
+      "Implemented performance monitoring and alerting systems for proactive issue detection and resolution."
     ],
-    technologies: ["React.js", "Node.js", "Python", "AI Scheduling", "NLP", "RAG", "ServiceNow", "AWS", "Real-time Analytics"],
+    technologies: ["Selenium", "TestNG", "Postman", "React.js", "Flask", "Automation Testing", "CI/CD", "Performance Monitoring"],
   },
 ];
 
 export const CONTACT = {
-  address: "Merced, CA, USA",
+  address: "San Francisco, CA, USA",
   phoneNo: " (559) 371-3889",
   email: "anmolsingh2199@gmail.com",
 };
